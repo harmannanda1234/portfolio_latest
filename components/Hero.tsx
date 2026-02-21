@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { DitherShader } from "@/components/ui/dither-shader";
-import harman from "./res/harman.png";
+import harman from "./res/harmans.png";
 import linky from "./res/linked.png";
 import { motion } from "framer-motion";
 
@@ -77,7 +77,7 @@ const Hero = () => {
             duration: 1.2,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="relative overflow-hidden rounded-2xl w-full max-w-md aspect-[3/4] border border-white/10"
+          className="relative overflow-hidden rounded-2xl w-full max-w-md aspect-[3/4] "
         >
           <motion.div
             initial={{ y: "0%" }}

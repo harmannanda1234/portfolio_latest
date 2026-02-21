@@ -20,7 +20,7 @@ const Badge = ({ className }: { className?: string }) => {
 
 export function MacbookScrollDemo() {
   return (
-    <section className="w-full py-10">
+    <section className="w-full py-2 mt-2 ">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}

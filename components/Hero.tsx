@@ -53,7 +53,7 @@ const Hero = () => {
   }, []);
 
  return (
-<section className="bg-black text-white pt-24 pb-2 px-6">
+<section className="bg-black text-white pt-24 pb-2 px-6 mb-0">
       <div className="w-full max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
       {/* LEFT SIDE TEXT */}
